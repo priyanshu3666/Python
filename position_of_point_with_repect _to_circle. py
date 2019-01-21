@@ -9,7 +9,7 @@ r = int(input("Enter the radius of circle"))
 x1 = int(input("Enter the x cordinate of point"))
 y1 = int(input("Enter the y cordinate of point"))
 d = ((x-x1)**2 + (y-y1)**2)**0.5  #d is the distance of point from centre of circle
-if d > r :      #logic of checking point position start
+if d < r :      #logic of checking point position start
     print("Point is inside the circle")
 elif d == r :
     print("Point is on the circle")
